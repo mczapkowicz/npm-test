@@ -23,6 +23,13 @@
     "url": "https://github.com/mczapkowicz/npm-test.git"
   },
   "release": {
-    "branches": ["main"]
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
   }
 }
