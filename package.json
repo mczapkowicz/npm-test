@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^19.0.5"
   },
@@ -23,7 +24,9 @@
     "url": "https://github.com/mczapkowicz/npm-test.git"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
